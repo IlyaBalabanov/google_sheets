@@ -12,7 +12,7 @@ sheet = client.open("api test").sheet1  # Open the spreadhseet
 
 data = sheet.get_all_values()  # Get a list of all records
 
-row = sheet.row_values(1)
+row = sheet.row_values(2)
 
-pprint (row) #pp
+pprint (data) #pp
 
